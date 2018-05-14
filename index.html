@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <title>Gramover</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
+
+ <script>
+  function openWin() {
+    window.open("portfolio.html","_self");
+  }
+</script>
+
+</head>
+<body style="font-family: 'Alegreya', sans-serif; font-size: 15px;background-image: linear-gradient(-70deg, #e9defa 0%, #fbfcdb 100%);"> 
+
+<nav class="navbar navbar-default navbar-fixed-top scrolling-navbar" style="background-color: white;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>  
+      <a class="navbar-brand" href="index2.html"> 
+      <img src="photos/skymet logo.png" style="display: inline-block; height: 125%;">
+      <span style="display: inline-block;"> </span>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a class="navbar-brand" href="#" style="color: #00cc99; background-color: default; text-shadow: 2px;font-family: 'Alegreya', serif;font-size: 17px; margin-left: 30px;"><img src="photos/dashboard.png" style="display: inline-block; height: 145%;">Dashboard</a></li>
+        <li><a class="navbar-brand" href="#" style="background-color: default;font-family: 'Alegreya',serif;font-size:17px; margin-left: 30px;"><img src="photos/userguide.png" style="display: inline-block; height: 145%;">User Guide</a></li>
+        <li><a class="navbar-brand" href="#" style="background-color: default;font-family: 'Alegreya', serif;font-size: 17px;"><img src="photos/def.png" style="display: inline-block; height: 145%;margin-left: 30px;">Definitions</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br><br><br><br>
+
+<nav class="navbar navbar-expand-xl navbar-default" style="background-color: transparent;border: 1px white;">
+<div class="container">
+
+<div class="row" style="background-color: white;border-radius: 10px;">
+
+                    
+                      <div class="col-xs-12 col-sm-12 col-md-6 navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1"  style="margin-top: 15px;border: 1px solid #4d94ff; margin-right: 0px;border-radius: 8px;">
+        <img src="monitor1.png">                        
+      </button>  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1" onclick="openWin()" style="margin-top: 15px; border: 1px solid #4d94ff;border-radius: 8px;">
+       <img src="portfolio1.png">                       
+      </button>
+                          <h3 style="color: grey;"><img src="pricing .png" alt="logo">&nbsp;Price Calculator</h3>
+                        
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 collapse navbar-collapse" id="myNavbar1" style="margin-top: 30px;margin-left: 90px;">  
+                          <ul class="nav navbar-nav" style="margin-left: 20px;">  
+                         <li> <a class="navbar-brand" href="portfolio.html" style="font-size: 18px;height: 27px;background-image: url(portfolio1.png);background-repeat: no-repeat;padding: 10px;margin-top: -1px;">
+                            	<p style="margin-left: 20px;margin-top: -8px;color: #4d94ff;border: 2px solid #005ce6;border-radius: 5px;padding: 2px;">
+                              My Portfolio</p>
+                            </a></li>
+                            
+                            &nbsp;&nbsp;&emsp;&emsp;
+                          <li>  <a class="navbar-brand" href="#" style="padding: 10px;font-size: 18px;height: 27px;background-image: url(monitor1.png);background-repeat: no-repeat;margin-left: 10px;">
+                              <p style="margin-left: 20px;margin-top: -10px;color: #4d94ff;border: 2px solid #005ce6;border-radius: 5px;padding: 2px;">Crop Monitoring</p>
+                            </a>
+                        </li></ul>
+                        </div>
+                        
+</div></div> 
+</nav>
+
+<div class="container" style="border: 1px solid lightgrey; border-radius: 15px;background-color: white;">
+	
+	<div class="row">
+<div class="mainarea" style="padding: 5px;">
+	<form action="#">
+		<fieldset>
+			<div class="chooseOptions">
+				<div class="row">
+				<div class="form-group  col-xs-6 col-md-4 cropYear">
+				<span>	<label for="state">State</label> </span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="state" >
+						<option selected > Maharashtra </option>
+						<option> West Bengal </option>
+						<option> Rajasthan </option>
+						<option> Bihar </option>
+						<option> Gujarat </option>
+						<option> Jharkhand </option>
+						
+					</select>
+					
+                				</div>
+                
+                <div class="form-group col-xs-6 col-md-4 cropYear">
+			    <span><label for="district">District</label></span>
+			    <i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="district">
+						<option selected> Ahmednagar </option>
+						<option> Gonda </option>
+						<option> Bulandshahr </option>
+						<option> Fatehpur </option>
+						<option> Faizabad </option>
+						<option> Surat </option>
+					</select>
+				</div>
+                
+                
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="insurance"> Insurance Level </label></span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="insurance">
+						
+						<option selected> Tehsil </option>
+						<option> District </option>
+						<option> Village </option>
+						<option> State </option>
+						<option> Place </option>
+						
+					</select>
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="season">Season</label> </span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="season">
+						<option selected> Kharif </option>
+						<option> Rabi </option>
+						<option> Zaid </option>
+					</select>
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="year">Year</label>  </span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="year">
+						<option selected> 2017 </option>
+						<option> 2016 </option>
+						<option> 2015 </option>
+						<option> 2014 </option>
+					</select>
+				</div>
+               
+
+               				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="period">Period</label>  </span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="period">
+						<option selected> 10 years </option>
+						<option> 15 years </option>
+						<option> 7 years </option>
+						<option> 2 years </option>
+					</select>
+				</div>
+
+					<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="detrend"> Detrending Type</label> </span><i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="detrend">
+						<option selected> Positive </option>
+						<option> Negative </option>
+						<option> Neutral </option>
+					</select>
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="crop">Crop</label> </span>
+				<i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="crop">
+						<option selected> Bajra </option>
+						<option> Wheat </option>
+						<option> Rice </option>
+						<option> Maize </option>
+						<option> Cowpea </option>
+						<option> Paddy </option>
+					</select>
+				</div> 
+               <div class="form-group col-xs-6 col-md-4 cropYear">
+					<span><label for="indemn">Indemnity Level</label></span><i class="glyphicon glyphicon-chevron-down">
+					</i>
+					<select class="form-control" id="indemn">
+						
+						<option selected> 80% </option>
+						<option> 67% </option>
+						<option> 43% </option>
+						<option> 93% </option>
+						<option> 23% </option>
+						
+					</select>
+				</div>
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="load">SD Loading</label>  </span>
+					<input type="text" class="form-control" id="load" placeholder="0.2%">
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="max">Max Payout Loading</label> </span>
+					<input type="text" class="form-control" id="max" placeholder="0.04">	
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="risk">Risk Loading</label>  </span>
+					<input type="text" class="form-control" id="risk" placeholder="10">
+				</div>
+                
+
+                
+				
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+					
+					<input type="text" class="form-control" id="risk" placeholder="Calamity Year(1)" style="margin-top: 10px;">
+
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+					
+					<input type="text" class="form-control" id="risk" placeholder="Calamity Year(2)" style="margin-top: 10px;">
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="slope">Slope Factor</label> </span>
+					<input type="text" class="form-control" id="slope" placeholder="1">
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="farmer">Farmer's Share(%)</label>  </span>
+					<input type="text" class="form-control" id="farmer" placeholder="0.2%">
+				</div>
+                <div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="sum">Sum Insured</label> </span>
+					<input type="text" class="form-control" id="sum" placeholder="10000">
+				</div>
+
+				<div class="form-group col-xs-6 col-md-4 cropYear">
+				<span>	<label for="expense">Expense Loading</label> </span>
+					<input type="text" class="form-control" id="expense" placeholder="20">
+				</div>
+			
+
+			</div></div>
+<br>
+			<div class="bottomOptions">
+                                    
+                              <div class="checkDiv">
+                                            
+                                   <div class="checkbox" style="margin-left: 25px;text-align: center;">
+
+                                   	  &emsp;&emsp;
+
+                                   	 <span>
+
+                                         <input id="checkbox1" type="checkbox" checked="">
+                                         <label for="checkbox1">Use St. Dev. Loading</label></span>
+                                   
+                                            &emsp;&emsp;
+
+                                 <span>
+                                          <input id="checkbox2" type="checkbox">
+                                          <label for="checkbox2">Use Max Payout Loading</label>
+                                    </span>
+                                            &emsp;&emsp;
+ 
+                                  <span>               
+                                            <input id="checkbox3" type="checkbox">
+                                            <label for="checkbox3">Use Detrending</label></span>
+                                     
+                                            &emsp;&emsp;
+                                           <span>                     
+                                              <input id="checkbox4" type="checkbox">
+                                              <label for="checkbox4">Use Expense Loading</label>
+                                    </span><br>
+                                            &emsp;&emsp;
+
+                                      <span>
+                                               <input id="checkbox5" type="checkbox">
+                                               <label for="checkbox5">Use Risk Loading</label>
+                                      </span>
+                                         </div>   
+                                  </div>
+                                        <br>
+                                        <div class="btnDiv">
+                                        
+                                            <button type="submit" class="btn btn-default" >EXPORT</button>
+                                            
+                                            <button type="submit" class="btn btn-default">VIEW</button>
+    
+                                        </div>
+             </div>
+                                        
+
+
+		</fieldset>
+</form>
+</div></div></div>
+
+
+<br>
+
+ <script src="js/jquery.min.js"></script>
+
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
