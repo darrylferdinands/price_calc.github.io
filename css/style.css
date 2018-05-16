@@ -1,0 +1,162 @@
+
+
+.panel-table .panel-body{
+  padding:0;
+  width: margin 0 auto;
+}
+
+.panel-table .panel-body .table-bordered{
+  border-style: none;
+width: margin 0 auto;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+  border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+  border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+  border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+  border-top: 0px;
+}
+
+/*
+used to vertically center elements, may need modification if you're not using default sizes.
+*/
+
+
+ .panel-body .table-bordered > tbody > tr > td{
+  line-height: 65px;
+}
+
+.panel-body > table-bordered{
+  border-radius: 15px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th {
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+.panel-table .panel-body .table-bordered .table-list{
+	border: 1px solid white;
+}
+
+.dot {
+	  height: 25px;
+  width: 25px;
+  background-color: rgb(230, 184, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1 {
+	  height: 25px;
+  width: 25px;
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+	  height: 25px;
+  width: 25px;
+  background-color: #003cb3;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+	  height: 25px;
+  width: 25px;
+  background-color: #009900;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 { 
+	  height: 15px;
+  width: 15px;
+  background-color: #003cb3;
+  border-radius: 50%;
+  display: inline-block;
+text-align: center;
+
+}
+.dot5 {
+	  height: 15px;
+  width: 15px;
+  background-color: #009900;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot6 {
+	  height: 15px;
+  width: 15px;
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot7 {
+	  height: 15px;
+  width: 15px;
+  background-color: rgb(230, 184, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.navbar {
+  background-color: white;
+  border: none;
+}
+
+.navbar .navbar-header > a {
+  color: grey;
+  font-size: 15px;
+}
+.collapse ul.nav > li.active {
+  background-color: red;
+}
+.collapse  > ul.nav > li > a{
+  color: grey;
+  font-size: 18px;
+}
+
+.collapse  > ul.nav > li.active > a{
+  color: #4d94ff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.collapse  > ul.nav > li.abcd > a {
+  color: #4d94ff;
+  border-bottom: 3px solid #4d94ff;
+  
+}
+.collapse  > ul.nav > li.active > a > span{
+  color: #4d94ff;
+  border-bottom: 3px solid #4d94ff;
+  
+}
+.collapse  > ul.nav > li > a:hover{
+  color: #4d94ff;
+  text-decoration: none;
+  border-bottom: 3px solid #4d94ff;
+  
+}
+
+.collapse  > ul.nav > li {
+  
+  background-color: white;
+ 
+}
